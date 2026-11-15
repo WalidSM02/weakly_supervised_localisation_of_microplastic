@@ -1,0 +1,80 @@
+{
+ "root": "F:\\Aiub-online\\OneDrive - American-International-University-Bangladesh\\Documents\\AIUB\\AIUB\\research\\Arajit Shah\\ML model\\archive",
+ "splits": {
+  "train": {
+   "csv_rows": 5425,
+   "images_on_disk": 577,
+   "csv_files_missing_on_disk": [],
+   "n_csv_files_missing_on_disk": 0,
+   "unannotated_images_on_disk": 0,
+   "unannotated_examples": [],
+   "annotated_images": 577,
+   "boxes_kept": 5425,
+   "boxes_dropped_too_small": 0,
+   "boxes_clipped_to_image": 0,
+   "class_names": [
+    "Microplastic"
+   ]
+  },
+  "valid": {
+   "csv_rows": 1701,
+   "images_on_disk": 204,
+   "csv_files_missing_on_disk": [],
+   "n_csv_files_missing_on_disk": 0,
+   "unannotated_images_on_disk": 0,
+   "unannotated_examples": [],
+   "annotated_images": 204,
+   "boxes_kept": 1699,
+   "boxes_dropped_too_small": 2,
+   "boxes_clipped_to_image": 0,
+   "class_names": [
+    "Microplastic"
+   ]
+  }
+ },
+ "image_sizes": {
+  "563x537": 777,
+  "353x336": 4
+ },
+ "exact_duplicate_groups": 0,
+ "exact_duplicate_examples": [],
+ "field_of_view_fraction": {
+  "mean": 0.8682552034882615,
+  "min": 0.13353245284142215,
+  "max": 1.0
+ },
+ "per_split": {
+  "train": {
+   "images": 577,
+   "unique_sources": 577,
+   "max_copies_per_source": 1,
+   "boxes_per_image_mean": 9.40207972270364,
+   "boxes_per_image_max": 52,
+   "box_w_median_px": 29.0,
+   "box_h_median_px": 30.0,
+   "box_side_p5_p95_px": [
+    11.0,
+    100.80000305175781
+   ]
+  },
+  "valid": {
+   "images": 204,
+   "unique_sources": 204,
+   "max_copies_per_source": 1,
+   "boxes_per_image_mean": 8.32843137254902,
+   "boxes_per_image_max": 28,
+   "box_w_median_px": 33.0,
+   "box_h_median_px": 32.0,
+   "box_side_p5_p95_px": [
+    11.0,
+    95.19999694824219
+   ]
+  }
+ },
+ "source_overlap_between_folders": {
+  "train&valid": 0
+ },
+ "warnings": [
+  "valid: 2 degenerate boxes (<3 px) dropped."
+ ]
+}
